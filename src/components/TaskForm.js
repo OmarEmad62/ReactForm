@@ -9,8 +9,8 @@ const TaskForm = () => {
   const [selectedFieldType, setSelectedFieldType] = useState('');
   const [fieldLabel, setFieldLabel] = useState('');
   const [insertIndex, setInsertIndex] = useState(0);
-  const [gridColumn, setGridColumn] = useState(1); // Track grid column
-  const [options, setOptions] = useState(['']); // Track options for dropdown, radio, and checkbox
+  const [gridColumn, setGridColumn] = useState(1);
+  const [options, setOptions] = useState(['']); 
   const { control, handleSubmit, register } = useForm({
     defaultValues: {
       dynamicFields: [],
