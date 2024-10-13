@@ -1,0 +1,16 @@
+{
+  "dynamicFields": [
+    {
+      "label": "ssssssssss",
+      "type": "number",
+      "gridColumn": 1,
+      "values": []
+    },
+    {
+      "label": "sdasdads",
+      "type": "text",
+      "gridColumn": 1,
+      "values": []
+    }
+  ]
+}
