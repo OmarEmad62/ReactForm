@@ -71,7 +71,7 @@ const FormDisplay = () => {
         <div key={index} className="grid-item">
           <label>{field.label}</label>
           <Controller
-            name={`dynamicFields.${index}.value`} // Dynamic name for each field
+            name={`dynamicFields.${index}.value`} 
             control={control}
             render={({ field: inputField }) => {
               switch (field.type) {
