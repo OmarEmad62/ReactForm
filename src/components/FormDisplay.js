@@ -37,9 +37,9 @@ const FormDisplay = () => {
   const [formData, setFormData] = useState([]);
 
   const { control, handleSubmit, formState: { errors }, setValue } = useForm({
-    resolver: yupResolver(generateSchema(formData)), // Dynamically generated schema
+    resolver: yupResolver(generateSchema(formData)), 
     defaultValues: {
-      dynamicFields: [], // Default values for dynamic fields
+      dynamicFields: [],
     },
   });
 
@@ -50,7 +50,7 @@ const FormDisplay = () => {
         const dynamicFieldsData = response.data.dynamicFields;
         setFormData(dynamicFieldsData);
 
-        // Set default values for dynamic fields
+        
         dynamicFieldsData.forEach((field, index) => {
           setValue(`dynamicFields.${index}.value`, '');
         });
