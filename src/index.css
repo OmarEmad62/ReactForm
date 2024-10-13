@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #181818; /* Dark background */
+  background-color: #181818; 
 }
 
 h1 {
@@ -29,7 +29,7 @@ label {
   font-size: 0.9rem;
 }
 
-/* Button Styling */
+
 button {
   background-color: #007bff;
   color: #fff;
@@ -45,7 +45,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Input Field Styling */
+
 input, select, textarea {
   width: 100%;
   padding: 12px;
@@ -62,14 +62,14 @@ input:focus, select:focus, textarea:focus {
   outline: none;
 }
 
-/* Error Message Styling */
+
 .error-message {
   color: #ff6b6b;
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 
-/* Responsive Adjustments */
+
 @media screen and (max-width: 600px) {
   body {
     padding: 1rem;
