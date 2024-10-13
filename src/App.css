@@ -1,4 +1,4 @@
-/* Form Container */
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Grid for Form Fields */
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
@@ -22,7 +22,7 @@
   margin-bottom: 2rem;
 }
 
-/* Each Field (input or text) */
+
 .grid-item {
   background-color: #333;
   padding: 1rem;
@@ -55,7 +55,7 @@ textarea:focus {
   outline: none;
 }
 
-/* Styling for Buttons */
+
 button {
   padding: 12px 18px;
   font-size: 1rem;
@@ -72,7 +72,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Submit Button Specific Styling */
+
 button[type="submit"] {
   background-color: #007bff;
   color: white;
@@ -90,7 +90,7 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Styling for Field Removal Button */
+
 button.remove-field {
   background-color: #ff6b6b;
   color: white;
@@ -105,7 +105,7 @@ button.remove-field:hover {
   background-color: #e55050;
 }
 
-/* Responsive Grid Adjustments */
+
 @media screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr;
