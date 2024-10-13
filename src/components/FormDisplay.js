@@ -5,7 +5,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
 import "../App.css";
 
-// Function to dynamically generate Yup schema based on field types
+
 const generateSchema = (fields) => {
   const shape = {};
 
